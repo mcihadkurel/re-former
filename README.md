@@ -23,6 +23,7 @@ To get this project up and running locally, you must already have ruby and rails
 - Next run ```bundle install``` to install the necessary dependencies<br>
 - Run ```rails db:migrate``` to setup your local database.<br>
 - Finally run ```rails console``` to start the application.<br>
+- Check ```http://localhost:3000/users/new``` to see actual result on any browser
 
 ## Authors
 
