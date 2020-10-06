@@ -1,0 +1,38 @@
+<%= render "errors"%>
+<!--
+<%= form_for @user do |f| %>
+   
+    <%= label(:username, "Username: ") %>
+    <%= f.text_field :username %><br/>
+    <%= label(:email, "Email: ") %>
+    <%= f.text_field :email %><br/>
+    <%= label(:password,"Password: ") %>
+    <%= f.password_field :password %><br/>
+    <%= f.submit "submit" %>
+<% end %>
+<h2>form_tag form</h2>
+<%= form_tag(user_path, method: 'patch' ) do %>
+    <%= label_tag 'username' %>
+    <%= text_field_tag(:username) %><br/>
+    <%= label_tag 'email' %>
+    <%= text_field_tag(:email) %><br/>
+    <%= label_tag 'password' %>
+    <%= password_field_tag 'password' %><br/>
+    <%= submit_tag 'Submit'%>
+<% end %>
+-->
+
+<div class="container">
+<%= form_for @user do |f| %>
+  <div class="field">
+  Username: <%= f.text_field :username, placeholder: 'What is your username?', class: 'input' %><br />
+  </div>
+  <div class="field">
+  Email : <%= f.text_field :email, placeholder: 'example@example.com', class: 'input' %><br />
+  </div>
+  <div class="field">
+  Password : <%= f.password_field :password, placeholder: 'Password', class: 'input' %><br />
+  </div>
+  <%= f.submit("Create user", class: "button is-primary" ) %>
+<% end %>
+</div>
