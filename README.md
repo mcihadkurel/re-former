@@ -1,7 +1,7 @@
 # Re-former
 
 This is the project gives a chance to build some forms, using Bulma framework and using helper methods that Rails provides
-<img src="./app/assets/images/Screenshot_1" alt="shot">
+<img src="./app/assets/images/Screenshot_1.png" alt="shot">
 ## Built With
 
 -   Ruby
