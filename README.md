@@ -1,6 +1,6 @@
-# Project-MicroReddit
+# Re-former
 
-This is the project to learn about the database arrangement on Rails.
+This is the project gives a chance to build some forms, using Bulma framework and using helper methods that Rails provides
 
 ## Built With
 
@@ -8,6 +8,7 @@ This is the project to learn about the database arrangement on Rails.
 -   Rubocop
 -   Ubuntu
 -   Rails
+-   Bulma
 
 ## Prerequisities
 
@@ -17,8 +18,8 @@ To get this project up and running locally, you must already have ruby and rails
 
 **Setup**
 
-- Clone this repository with ```git clone git@github.com:gurbuzertunga/reddit_app.git``` using your terminal or command line.<br>
-- Change to the project directory by entering ```cd micro-reddit``` in the terminal<br>
+- Clone this repository with ```https://github.com/mcihadkurel/re-former.git``` using your terminal or command line.<br>
+- Change to the project directory by entering ```cd re-former``` in the terminal<br>
 - Next run ```bundle install``` to install the necessary dependencies<br>
 - Run ```rails db:migrate``` to setup your local database.<br>
 - Finally run ```rails console``` to start the application.<br>
